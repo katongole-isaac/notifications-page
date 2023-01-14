@@ -1,15 +1,18 @@
 import React from "react";
 import "./app.css";
+import NotificationCard from "./components/NotificationCard";
+import NotificationHeader from "./components/NotificationHeader";
+import NotificationList from "./components/NotificationList";
 import data from "./data.toml";
 
 export default function () {
   return (
     <>
-      <div>
-        <h2>Welcome to react</h2>
-      </div>
-      <div className="footer">
-        <p>Developed by {data.name} </p>
+      <div className="container">
+        <NotificationHeader />
+        <div className="notification-list">
+          <NotificationList />
+        </div>
       </div>
     </>
   );

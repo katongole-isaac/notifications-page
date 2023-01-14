@@ -1,0 +1,83 @@
+.notify-card {
+  display: flex;
+  width: 100%;
+  min-height: 80px;
+  gap: 1em;
+  padding: 1em;
+  margin-bottom: 5px;
+}
+
+.card-wrapper {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card-bg-lightblue {
+  background: var(--LightGrayishBlue-1);
+}
+
+.card-image-wrapper,
+.card-inner-image-wrapper {
+  width: 50px;
+  height: 50px;
+}
+
+.card-image-wrapper {
+  border-radius: 50%;
+}
+
+.card-inner-image-wrapper {
+  border-radius: 5px;
+}
+
+.card-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+.card-text-wrapper .comment,
+.comment-text-bold,
+.comment-msg {
+  color: var(--GrayishBlue);
+}
+
+.card-inner-text-wrapper {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.card-text-section {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.comment-text-bold {
+  font-weight: 800;
+}
+
+.card-red-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: hwb(350 14% 11%);
+  /* display: inline; */
+}
+.card-time-display {
+  color: var(--GrayishBlue);
+}
+
+.comment-msg {
+  padding: 1em;
+  margin-left: 5em;
+  border-radius: 5px;
+  background: var(--white);
+  min-height: 100px;
+  font-weight: 500;
+  border: 2px solid #efefef;
+}
+
+.user-name {
+  font-weight: 800;
+}

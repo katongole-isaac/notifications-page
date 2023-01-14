@@ -1,0 +1,27 @@
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-count {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-count span:nth-of-type(1) {
+  font-weight: 800;
+  font-size: 1.3em;
+}
+
+.nav-count span:nth-of-type(2) {
+  background: var(--VeryDarkBlue);
+  color: var(--white);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-header > span {
+  color: var(--GrayishBlue);
+  font-weight: 800;
+}
